@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(236, 223, 204); /* Background color for all webpage */
+}
+/* I decided all my headings are being centered so i put them in a single line 
+of code rather than using spaghetti code with a class of each headings */
+h1, h2, h3, p {
+    text-align: center;
+    font-family: serif;  
+}
+/* selected li with class are being centered */
+.li1, .li2, .li3, .li4 {
+    text-align: center;
+}
+/* this code is specific only for contact us webpage */
+.center-page {
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    margin: 0;
+}
